@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-image: linear-gradient(to right, #f7cb61, #f1c87e, #efd4a1);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10px;
+
+}
+header h2{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: initial;
+    color: rgb(0, 0, 0);
+
+}
+nav a {
+    color: rgb(80, 77, 77);
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.se {
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    top: -100%;
+    transition: top 0.5s ease;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.se input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: #333333;
+    font-size: 16px;
+    outline: none;
+}
+
+#xmark {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #666666;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#xmark:hover {
+    color: #333333;
+}
+
+#bar {
+    display: none;
+}
+nav a:hover {
+    color: #a8dadc;
+}
+
+.mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    transition: all 1s linear;
+    z-index: -1;
+    top: -100%;
+}
+
+.mobile a {
+    margin: 20px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+    header nav a {
+        display: none;
+    }
+
+    #bar {
+        display: inline-block;
+        padding-left: 10px;
+    }
+}
+
+.swiper {
+    margin: 0 auto;
+    width: 100%;
+    height: 95vh;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+}
+
+.swiper-slide:nth-child(1) {
+    /* background-color: rgb(206, 17, 17); */
+    background: url(img1.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.swiper-slide:nth-child(2) {
+    /* background-color: rgb(206, 17, 17); */
+    background: url(img2.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.swiper-slide:nth-child(3) {
+    /* background-color: rgb(206, 17, 17); */
+    background: url(img3.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.swiper-slide:nth-child(4) {
+    /* background-color: rgb(206, 17, 17); */
+    background: url(img4.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.data {
+    width: 85%;
+    color: white;
+}
+
+.data h2 {
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container .welcome {
+    padding: 8% 0%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.welcome .welcome-lf,
+.welcome .welcome-rt {
+    width: 48%;
+}
+
+.welcome .welcome-lf h1 {
+    font-size: 5vw;
+    position: relative;
+    color: rgb(190, 131, 131);
+}
+
+.welcome .welcome-lf h1::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background: rgb(127, 129, 202);
+    bottom: -30px;
+    left: 0;
+}
+
+.data p {
+    color: rgb(247, 240, 240);
+}
+
+.welcome .welcome-rt p {
+    font-size: 18px;
+    line-height: 25px;
+    color: darkgray;
+}
+
+.welcome-banner {
+    padding: 4% 0%;
+    width: 100%;
+}
+
+.welcome-banner img {
+    width: 100%;
+    height: inherit;
+}
+
+.welcome-banner {
+    padding: 4% 0%;
+    width: 100%;
+}
+
+.welcome-banner img {
+    width: 100%;
+    height: inherit;
+}
+
+.serv {
+    padding: 3% 0%;
+    width: 100%;
+    text-align: left;
+}
+
+.serv h2 {
+    font-size: 5vw;
+    position: relative;
+    color: rgb(190, 131, 131);
+}
+
+.serv h2::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    background: rgb(127, 129, 202);
+    bottom: -30px;
+    left: 0;
+}
+
+.our {
+    padding: 5% 0%;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin: 5% 0%;
+    overflow: hidden;
+}
+
+.our .our-bx {
+    width: 25%;
+    height: inherit;
+    position: relative;
+    /* opacity: 0.9; */
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 1s linear;
+    padding: 15px;
+}
+
+.our .our-bx .our-data {
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: 13%;
+    padding: 5px;
+    color: white;
+    font-size: 3vw;
+}
+
+.our .our-bx:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 5;
+    box-shadow: 4px 4px 5px black;
+}
+
+.our .our-bx:nth-child(1) {
+    background: url(https://mahekbeauty.com/wp-content/uploads/2019/08/Home4-Service-4-Img.jpg?id=4476);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.our .our-bx:nth-child(2) {
+    background: url(https://mahekbeauty.com/wp-content/uploads/2019/08/Home3-Service-3-Img.jpg?id=4487);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.our .our-bx:nth-child(3) {
+    background: url(https://mahekbeauty.com/wp-content/uploads/2019/08/Home1-Service-1-Img.jpg?id=4484);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.our .our-bx:nth-child(4) {
+    background: url(https://mahekbeauty.com/wp-content/uploads/2019/08/Home2-Service-2-Img.jpg?id=4486);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.visit {
+    margin: 5% 0% !important;
+    width: 100%;
+    height: 50vh;
+    padding: 5% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(https://mahekbeauty.com/wp-content/uploads/2019/08/Booking-Bg.jpg?id=4481);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.visit .vis {
+    width: 50%;
+}
+
+.visit .vis h2 {
+    font-size: 4vw;
+    margin-bottom: 25px;
+}
+
+.visit .vis a {
+    font-size: 22px;
+    background: black;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: white;
+}
+
+#discount-banner {
+    background-color: #f9f4f2;
+    padding: 20px 0;
+    height: 25vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#discount-banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount-info {
+    width: 50%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.discount-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.discount-info p {
+    font-size: 20px;
+    color: #7b7b7b;
+}
+
+.email-input {
+    width: 50%;
+}
+
+.email-input form {
+    display: flex;
+    align-items: center;
+}
+
+.email-input input[type="email"] {
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.email-input button {
+    background-color: #d69c7b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.email-input button:hover {
+    background-color: #b97952;
+}
+
+@media screen and (max-width:980px) {
+    .welcome {
+        flex-direction: column;
+    }
+
+    .welcome .we-lf {
+        margin: 25px 0px 45px;
+    }
+
+    .welcome .we-lf,
+    .welcome .we-rt {
+        width: 100%;
+    }
+
+    .visit .vis h2 {
+        font-size: 35px;
+    }
+
+    .visit .vis a {
+        font-size: 15px;
+    }
+
+    .visit .vis {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    /* justify-content: center; */
+    gap: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #ff7f50;
+}
+
+/* .newsletter {
+    margin-top: 20px;
+} */
+
+.newsletter input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+}
+
+.newsletter button {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7f50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #ff6347;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 100%;
+    }
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    .newsletter {
+        margin-top: 20px;
+        justify-content: center;
+    }
+}

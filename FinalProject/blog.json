@@ -1,0 +1,133 @@
+{
+    "beautyBlogs": [
+      {
+        "image": "https://source.unsplash.com/600x400/?makeup",
+        "tag": "Makeup",
+        "title": "Mastering the Art of Makeup",
+        "description": "In this comprehensive guide, delve into the intricate world of makeup artistry. From mastering the perfect winged eyeliner to achieving a flawless complexion, learn the latest makeup techniques and trends from industry experts.",
+        "userName": "Emily Johnson",
+        "time": "5h ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?skincare",
+        "tag": "Skincare",
+        "title": "Unlocking Radiant Skin: Essential Skincare Tips",
+        "description": "Embark on a journey to discover the secrets of radiant skin. Uncover the best skincare routines and products tailored to your skin type, and learn how to address common concerns such as acne, dryness, and aging.",
+        "userName": "Lilly Adams",
+        "time": "3h ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?hair",
+        "tag": "Haircare",
+        "title": "Haircare 101: Best Practices for Healthy Hair",
+        "description": "Transform your locks with our comprehensive guide to haircare. From choosing the right shampoo and conditioner to mastering the art of styling, explore the best practices for maintaining healthy, luscious hair.",
+        "userName": "Michael Smith",
+        "time": "1d ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?nails",
+        "tag": "Nail Art",
+        "title": "Nail Art Extravaganza: Explore the Latest Trends",
+        "description": "Indulge your creative side with the latest nail art trends. From intricate designs to bold colors, discover inspiration for your next manicure and elevate your nail game to new heights.",
+        "userName": "Sophia Davis",
+        "time": "2d ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?fashion",
+        "tag": "Fashion",
+        "title": "Fashion Forward: Unveiling the Trends of 2024",
+        "description": "Step into the world of haute couture and discover the latest fashion trends for the upcoming year. From runway to street style, explore the hottest looks and elevate your wardrobe with cutting-edge fashion.",
+        "userName": "Henry Williams",
+        "time": "1w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?fragrance",
+        "tag": "Fragrance",
+        "title": "Scent-sational: Exploring the World of Fragrances",
+        "description": "Immerse yourself in the intoxicating world of fragrances. From floral and fruity to woody and oriental, delve into the art of perfumery and discover the perfect scent to express your unique personality.",
+        "userName": "Olivia Brown",
+        "time": "2w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?wellness",
+        "tag": "Wellness",
+        "title": "Wellness Wisdom: Nurturing Body and Mind",
+        "description": "Prioritize your well-being with our holistic guide to wellness. From nutrition and fitness to mindfulness and self-care, embark on a journey to nurture your body, mind, and soul for a healthier, happier you.",
+        "userName": "Ethan Garcia",
+        "time": "3w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?beauty",
+        "tag": "Beauty",
+        "title": "Beauty Secrets Unveiled: Insider Tips from the Pros",
+        "description": "Unlock the secrets to flawless beauty with insider tips from industry professionals. From skincare hacks to makeup tricks, elevate your beauty routine and unleash your inner goddess.",
+        "userName": "Ava Martinez",
+        "time": "4w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?fitness",
+        "tag": "Fitness",
+        "title": "Fit and Fabulous: Achieving Your Fitness Goals",
+        "description": "Embark on a fitness journey to transform your body and life. Discover effective workout routines, nutrition tips, and motivational strategies to help you achieve your fitness goals and become the best version of yourself.",
+        "userName": "Noah Rodriguez",
+        "time": "5w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?selfcare",
+        "tag": "Self-care",
+        "title": "Self-care Essentials: Nurturing Mind, Body, and Soul",
+        "description": "Nourish your mind, body, and soul with our self-care essentials. From relaxation techniques to mindfulness practices, prioritize self-care and cultivate a deeper sense of well-being and inner peace.",
+        "userName": "Emma Wilson",
+        "time": "6w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?spa",
+        "tag": "Spa",
+        "title": "Indulge and Unwind: The Ultimate Spa Experience",
+        "description": "Escape the hustle and bustle of everyday life and treat yourself to the ultimate spa experience. From soothing massages to rejuvenating facials, indulge in pampering treatments designed to relax and rejuvenate your body and mind.",
+        "userName": "Lucas Anderson",
+        "time": "7w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?diet",
+        "tag": "Diet",
+        "title": "Eating for Health: Navigating the World of Nutrition",
+        "description": "Discover the key principles of healthy eating and learn how to make informed dietary choices for optimal health. From macronutrients to micronutrients, explore the building blocks of a balanced diet and nourish your body from the inside out.",
+        "userName": "Mia Thompson",
+        "time": "8w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?makeup",
+        "tag": "Makeup",
+        "title": "Effortless Beauty: Makeup Tips for Everyday Glam",
+        "description": "Enhance your natural beauty with our collection of makeup tips for everyday glam. From quick and easy routines to versatile makeup looks, discover the secrets to looking effortlessly beautiful every day.",
+        "userName": "Daniel White",
+        "time": "9w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?hair",
+        "tag": "Haircare",
+        "title": "Healthy Hair, Happy You: Essential Haircare Tips",
+        "description": "Transform your hair from dull to dazzling with our essential haircare tips. From choosing the right products to mastering styling techniques, unlock the secrets to healthy, beautiful hair that shines from root to tip.",
+        "userName": "Isabella Martinez",
+        "time": "10w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?skincare",
+        "tag": "Skincare",
+        "title": "Glowing Skin 101: Skincare Secrets Revealed",
+        "description": "Achieve a radiant complexion with our skincare secrets revealed. From cleansing and exfoliating to moisturizing and protecting, learn the essential steps to glowing, healthy skin that radiates beauty from within.",
+        "userName": "David Johnson",
+        "time": "11w ago"
+      },
+      {
+        "image": "https://source.unsplash.com/600x400/?fitness",
+        "tag": "Fitness",
+        "title": "Sculpt and Tone: Fitness Tips for a Stronger You",
+        "description": "Take your fitness journey to the next level with our sculpt and tone fitness tips. From strength training to cardio workouts, discover effective exercises to sculpt and tone your body for a stronger, healthier you.",
+        "userName": "Sophia Rodriguez",
+        "time": "12w ago"
+      }
+    ]
+  }
+  

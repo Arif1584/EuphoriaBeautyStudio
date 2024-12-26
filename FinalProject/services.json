@@ -1,0 +1,22 @@
+
+{
+    "Hair": [
+        { "name": "Haircut", "description": "Professional haircut with styling.", "duration": "45 mins", "price": "$50" },
+        { "name": "Hair Coloring", "description": "Full hair coloring with premium dyes.", "duration": "90 mins", "price": "$120" },
+        { "name": "Blow Dry", "description": "Blow dry and styling.", "duration": "30 mins", "price": "$25" }
+    ],
+    "Nails": [
+        { "name": "Manicure", "description": "Basic manicure with nail polish.", "duration": "30 mins", "price": "$20" },
+        { "name": "Pedicure", "description": "Deluxe pedicure with massage.", "duration": "60 mins", "price": "$35" },
+        { "name": "Gel Nails", "description": "Gel nail application and design.", "duration": "45 mins", "price": "$40" }
+    ],
+    "Skincare": [
+        { "name": "Facial", "description": "Deep cleansing facial treatment.", "duration": "60 mins", "price": "$80" },
+        { "name": "Microdermabrasion", "description": "Exfoliating treatment for smooth skin.", "duration": "75 mins", "price": "$100" }
+    ],
+    "Spa": [
+        { "name": "Swedish Massage", "description": "Relaxing Swedish massage.", "duration": "60 mins", "price": "$70" },
+        { "name": "Aromatherapy Massage", "description": "Massage with essential oils.", "duration": "75 mins", "price": "$85" }
+    ]
+  }
+  

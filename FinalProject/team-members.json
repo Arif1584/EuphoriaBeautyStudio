@@ -1,0 +1,31 @@
+[
+    {
+        "name":"Emily Johnson",
+        "age":25,
+        "phone": "9876543210",
+        "image":"member-1.jpg",
+        "details":"With over a decade of experience, Emily is a seasoned expert in hair coloring and styling. Her passion for beauty and dedication to her craft have earned her a loyal clientele. Whether you're looking for a subtle change or a bold transformation, Emily will work with you to achieve the perfect look."
+    },
+    {
+        "name":"perry mayor",
+        "age":30,
+        "phone":"9123456789",
+        "image":"member-2.jpg",
+        "details":"Michael brings his artistic flair and meticulous attention to detail to every haircut and grooming session. Specializing in men's styles, he stays updated on the latest trends and techniques to ensure his clients leave feeling confident and stylish. Whether it's a classic cut or a modern fade, Michael's expertise will exceed your expectations."
+    },
+    {
+        "name":"Samantha Lee",
+        "age":28,
+        "phone": "9345678901",
+        "image":"member-3.jpg",
+        "details":"As a certified esthetician, Samantha is passionate about skincare and helping her clients achieve healthy, radiant skin. With a focus on facial treatments and rejuvenation, she customizes each session to address individual concerns and goals. Samantha's gentle touch and extensive knowledge make every visit to the salon a rejuvenating experience."
+    },
+    {
+        "name":"Daniel Brown",
+        "age":27,
+        "phone": "9567890123",
+        "image":"member-4.webp",
+        "details":"Daniel's creativity and precision shine through in every manicure and pedicure he performs. Whether you're looking for a classic French tip or a trendy nail art design, Daniel will transform your nails into works of art. With his attention to hygiene and commitment to client satisfaction, you can trust Daniel to deliver flawless results every time."
+    }
+    
+]
